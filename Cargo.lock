@@ -1096,7 +1096,7 @@ version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "autocfg 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "rand_core 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rand_core 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -1125,7 +1125,7 @@ name = "rand_hc"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "rand_core 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rand_core 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -1163,7 +1163,7 @@ name = "rand_xorshift"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "rand_core 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rand_core 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -1302,7 +1302,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "salsa"
 version = "0.10.0-alpha5"
-source = "git+https://github.com/matklad/salsa?branch=flexible-gc#d01d6ed511fc46b6bd8d7bc2de5e5896da008ed0"
+source = "git+https://github.com/matklad/salsa?branch=flexible-gc#9387fd2f4d31210daa8805f0f0b8e4d22e73c3ea"
 dependencies = [
  "derive-new 0.5.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "indexmap 1.0.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1317,7 +1317,7 @@ dependencies = [
 [[package]]
 name = "salsa-macros"
 version = "0.10.0-alpha5"
-source = "git+https://github.com/matklad/salsa?branch=flexible-gc#d01d6ed511fc46b6bd8d7bc2de5e5896da008ed0"
+source = "git+https://github.com/matklad/salsa?branch=flexible-gc#9387fd2f4d31210daa8805f0f0b8e4d22e73c3ea"
 dependencies = [
  "heck 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "proc-macro2 0.4.26 (registry+https://github.com/rust-lang/crates.io-index)",
